@@ -6,6 +6,7 @@ html {
 }
 body {
   margin: 0;
+  padding-top: 70px;
 }
 article,
 aside,
@@ -9674,6 +9675,9 @@ a.list-group-item .list-group-item-heading {
 }
 .footer-default .copyright {
   color: #919496;
+}
+.white-text {
+    color: white;
 }
 [class*='footer-highlight'].footer .nav a:hover,
 [class*='footer-highlight'].footer .market:hover,
