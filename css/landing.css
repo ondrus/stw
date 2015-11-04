@@ -20,12 +20,12 @@ body {
 }
 
 .sp-jumbotron-custom-inverse {
-  background-image: url(../../assets/img/sp-jumbotron-custom-inverse-sm.jpg);
+  background-image: url(/img/mitm.png);
 }
 
 @media screen and (min-width: 768px) {
   .sp-jumbotron-custom {
-    background-image: url(../../assets/img/sp-jumbotron-custom-inverse-lg.jpg);
+    background-image: url(/img/mitm.png);
   }
 }
 
