@@ -1,0 +1,55 @@
+/* Sticky footer styles */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 120px;
+  padding-top: 0;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  background-color: #f5f5f5;
+}
+
+.sp-jumbotron-custom-inverse {
+  background-image: url(../../assets/img/sp-jumbotron-custom-inverse-sm.jpg);
+}
+
+@media screen and (min-width: 768px) {
+  .sp-jumbotron-custom {
+    background-image: url(../../assets/img/sp-jumbotron-custom-inverse-lg.jpg);
+  }
+}
+
+/* Custom Feature section */
+.features {
+  margin-bottom: 54px; /* (@padding-base-vertical * 9) + 12px paragraph bottom margin = 66px total bottom margin */
+}
+
+.h1 {
+  margin-bottom: 42px; /* (@padding-base-vertical * 7) */
+}
+
+@media screen and (min-width: 992px) {
+  .h1 {
+    margin-bottom: 48px; /* (@padding-base-vertical * 8) */
+  }
+}
+
+@media screen and (max-width: 991px) {
+  p {
+    margin-bottom: 18px; /* a little more breathing room between feature tiles in mobile view) */
+  }
+}
+
+.fine-print {
+  margin-bottom: 30px; /* (@padding-base-vertical * 5) */
+}
